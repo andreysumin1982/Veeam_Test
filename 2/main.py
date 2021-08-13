@@ -37,8 +37,5 @@ if __name__=='__main__':
    #path_file = '/home/asumin/Документы/Программирование_Python/test_files/hashfile.txt'
    #path_file_check = '/home/asumin/Документы/Программирование_Python/test_files'
    #
-   #path_file = '/home/asumin/Документы/Программирование Python/files_of_test/hashfile.txt'
-   #path_file_check = '/home/asumin/Документы/Программирование Python/files_of_test'
-   #
    path_file, path_file_check = input().split()
    hash_files(path_file, path_file_check) # Вызываем ф-цию.
