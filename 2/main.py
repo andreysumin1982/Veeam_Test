@@ -4,7 +4,7 @@ def hash_files(path_file_hash_sum, path_files_to_check):
         return print(f'Файл не найден.')
     with open(path_file_hash_sum) as file:
         for name in file.readlines():
-            # Читаем файл и в цыкле бужим по строкам.
+            # Читаем файл и в цикле бежим по строкам.
             file_name = name.strip().split()[0] # имя файла
             hash_file = name.strip().split()[1] # хеш (md5, sha1,.,)
             check_sum = name.strip().split()[2] # контр. сумма
